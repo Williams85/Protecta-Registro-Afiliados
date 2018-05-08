@@ -1,0 +1,203 @@
+﻿.foo {} /* W3C CSS validator likes CSS files to start with a class rather than a comment. Soooooo.... */
+
+/* This style sheet is intended to contain OFTEN CHANGED rules used when the GridView control adapter is enabled. */
+/* Empty rules are provided merely as a convenience for your future use or experimentation. */
+
+.PrettyGridView .AspNet-GridView
+{
+    width: 100%;
+    cursor:pointer;
+    /*overflow: scroll;
+	height:500px;*/
+}
+
+.PrettyGridView .AspNet-GridView div.AspNet-GridView-Pagination,
+.PrettyGridView .AspNet-GridView div.AspNet-GridView-Pagination a,
+.PrettyGridView .AspNet-GridView div.AspNet-GridView-Pagination span
+{
+    color: #00FFFF;
+    background: #284775;
+    font-weight: normal;
+    padding: 2px;
+}
+
+.PrettyGridView .AspNet-GridView table
+{
+    border: solid 1px #CCCCCC;
+    width: 100%;
+}
+
+.PrettyGridView .AspNet-GridView table thead tr th
+{
+	color: #F7F6F3;
+	background: #ff3333;
+	font-weight: bold;
+	border-bottom: solid 1px #CCCCCC;
+	border-right: solid 1px #CCCCCC;
+	padding: 2px;
+	position:relative; 
+	/*top: expression(document.getElementById("PrettyGridView").scrollTop-2);*/
+}
+
+.PrettyGridView .AspNet-GridView table thead tr th a
+{
+    color: #F7F6F3;
+}
+
+.PrettyGridView .AspNet-GridView table tbody tr td
+{
+    color: #333333;
+    background: White;
+    padding: 2px 20px 2px 2px;
+    border-bottom: solid 1px #CCCCCC;
+    border-right: solid 1px #CCCCCC;    
+}
+
+.PrettyGridView .AspNet-GridView table tbody tr.AspNet-GridView-Alternate td
+{
+    background: #F7F6F3;
+}
+
+.PrettyGridView .AspNet-GridView table tbody tr.AspNet-GridView-Selected td
+{
+	background: #ff6666;
+	color: white;
+}
+
+.PrettyGridView .AspNet-GridView table tfoot tr td
+{
+}
+
+/**/
+.PrettyGridView2 .AspNet-GridView
+{
+    width: 100%;
+    cursor:pointer;
+    /*overflow: scroll;
+	height:500px;*/
+}
+
+.PrettyGridView2 .AspNet-GridView div.AspNet-GridView-Pagination,
+.PrettyGridView2 .AspNet-GridView div.AspNet-GridView-Pagination a,
+.PrettyGridView2 .AspNet-GridView div.AspNet-GridView-Pagination span
+{
+    color: #00FFFF;
+    background: #284775;
+    font-weight: normal;
+    padding: 2px;
+}
+
+.PrettyGridView2 .AspNet-GridView table
+{
+    border: solid 1px #CCCCCC;
+    width: 100%;
+}
+
+.PrettyGridView2 .AspNet-GridView table thead tr th
+{
+	color: #F7F6F3;
+	background: #ff3333;
+	font-weight: bold;
+	border-bottom: solid 1px #CCCCCC;
+	border-right: solid 1px #CCCCCC;
+	padding: 2px;
+	position:relative; 
+	/*top: expression(document.getElementById("PrettyGridView").scrollTop-2);*/
+}
+
+.PrettyGridView2 .AspNet-GridView table thead tr th a
+{
+    color: #F7F6F3;
+}
+
+.PrettyGridView2 .AspNet-GridView table tbody tr td
+{
+    color: #333333;
+    /*background: White;*/
+    padding: 2px 20px 2px 2px;
+    border-bottom: solid 1px #CCCCCC;
+    border-right: solid 1px #CCCCCC;
+    height:16px;
+}
+
+.PrettyGridView2 .AspNet-GridView table tbody tr.AspNet-GridView-Alternate td
+{
+    /*background: #F7F6F3;*/
+}
+
+.PrettyGridView2 .AspNet-GridView table tbody tr.AspNet-GridView-Selected td
+{
+	background: #ff6666;
+	color: white;
+}
+
+.PrettyGridView2 .AspNet-GridView table tfoot tr td
+{
+}
+
+/**/
+.PrettyGridView3 .AspNet-GridView
+{
+    width: 100%;
+    cursor:pointer;
+    /*overflow: scroll;
+	height:500px;*/
+}
+
+.PrettyGridView3 .AspNet-GridView div.AspNet-GridView-Pagination,
+.PrettyGridView3 .AspNet-GridView div.AspNet-GridView-Pagination a,
+.PrettyGridView3 .AspNet-GridView div.AspNet-GridView-Pagination span
+{
+    color: #00FFFF;
+    background: #284775;
+    font-weight: normal;
+    padding: 2px;
+}
+
+.PrettyGridView3 .AspNet-GridView table
+{
+    border: solid 1px #CCCCCC;
+    width: 100%;
+}
+
+.PrettyGridView3 .AspNet-GridView table thead tr th
+{
+	color: #F7F6F3;
+	background: #ff3333;
+	font-weight: bold;
+	border-bottom: solid 1px #CCCCCC;
+	border-right: solid 1px #CCCCCC;
+	padding: 2px;
+	position:relative; 
+	/*top: expression(document.getElementById("PrettyGridView").scrollTop-2);*/
+}
+
+.PrettyGridView3 .AspNet-GridView table thead tr th a
+{
+    color: #F7F6F3;
+}
+
+.PrettyGridView3 .AspNet-GridView table tbody tr td
+{
+    color: #333333;
+    /*background: White;*/
+    padding: 2px 20px 2px 2px;
+    border-bottom: solid 1px #CCCCCC;
+    border-right: solid 1px #CCCCCC;
+    height:16px;
+}
+
+.PrettyGridView3 .AspNet-GridView table tbody tr.AspNet-GridView-Alternate td
+{
+    /*background: #F7F6F3;*/
+}
+
+.PrettyGridView3 .AspNet-GridView table tbody tr.AspNet-GridView-Selected td
+{
+	background: #ff6666;
+	color: white;
+}
+
+.PrettyGridView3 .AspNet-GridView table tfoot tr td
+{
+}

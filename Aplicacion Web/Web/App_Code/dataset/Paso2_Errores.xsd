@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Paso2_Errores" targetNamespace="http://tempuri.org/Paso2_Errores.xsd" xmlns:mstns="http://tempuri.org/Paso2_Errores.xsd" xmlns="http://tempuri.org/Paso2_Errores.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Paso2_Errores" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Paso2_Errores" msprop:Generator_DataSetName="Paso2_Errores">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Errores" msprop:Generator_TableClassName="ErroresDataTable" msprop:Generator_TableVarName="tableErrores" msprop:Generator_TablePropName="Errores" msprop:Generator_RowDeletingName="ErroresRowDeleting" msprop:Generator_RowChangingName="ErroresRowChanging" msprop:Generator_RowEvHandlerName="ErroresRowChangeEventHandler" msprop:Generator_RowDeletedName="ErroresRowDeleted" msprop:Generator_UserTableName="Errores" msprop:Generator_RowChangedName="ErroresRowChanged" msprop:Generator_RowEvArgName="ErroresRowChangeEvent" msprop:Generator_RowClassName="ErroresRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cod_error" msprop:Generator_ColumnVarNameInTable="columnCod_error" msprop:Generator_ColumnPropNameInRow="Cod_error" msprop:Generator_ColumnPropNameInTable="Cod_errorColumn" msprop:Generator_UserColumnName="Cod_error" type="xs:string" minOccurs="0" />
+              <xs:element name="Fila" msprop:Generator_ColumnVarNameInTable="columnFila" msprop:Generator_ColumnPropNameInRow="Fila" msprop:Generator_ColumnPropNameInTable="FilaColumn" msprop:Generator_UserColumnName="Fila" type="xs:long" minOccurs="0" />
+              <xs:element name="Archivo" msprop:Generator_ColumnVarNameInTable="columnArchivo" msprop:Generator_ColumnPropNameInRow="Archivo" msprop:Generator_ColumnPropNameInTable="ArchivoColumn" msprop:Generator_UserColumnName="Archivo" type="xs:long" minOccurs="0" />
+              <xs:element name="Columna" msprop:Generator_ColumnVarNameInTable="columnColumna" msprop:Generator_ColumnPropNameInRow="Columna" msprop:Generator_ColumnPropNameInTable="ColumnaColumn" msprop:Generator_UserColumnName="Columna" type="xs:int" minOccurs="0" />
+              <xs:element name="Descripcion_de_error" msprop:Generator_ColumnVarNameInTable="columnDescripcion_de_error" msprop:Generator_ColumnPropNameInRow="Descripcion_de_error" msprop:Generator_ColumnPropNameInTable="Descripcion_de_errorColumn" msprop:Generator_UserColumnName="Descripcion_de_error" type="xs:string" minOccurs="0" />
+              <xs:element name="Valor" msprop:Generator_ColumnVarNameInTable="columnValor" msprop:Generator_ColumnPropNameInRow="Valor" msprop:Generator_ColumnPropNameInTable="ValorColumn" msprop:Generator_UserColumnName="Valor" type="xs:string" minOccurs="0" />
+              <xs:element name="Observacion" msprop:Generator_ColumnVarNameInTable="columnObservacion" msprop:Generator_ColumnPropNameInRow="Observacion" msprop:Generator_ColumnPropNameInTable="ObservacionColumn" msprop:Generator_UserColumnName="Observacion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

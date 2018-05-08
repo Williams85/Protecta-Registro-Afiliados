@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Paso4_ResumenTotal" targetNamespace="http://tempuri.org/Paso4_ResumenTotal.xsd" xmlns:mstns="http://tempuri.org/Paso4_ResumenTotal.xsd" xmlns="http://tempuri.org/Paso4_ResumenTotal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Paso4_ResumenTotal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Resumen">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NMODULEC" type="xs:long" minOccurs="0" />
+              <xs:element name="SKEY_B" type="xs:long" minOccurs="0" />
+              <xs:element name="CANTIDAD_BENE" type="xs:long" minOccurs="0" />
+              <xs:element name="SKEY_T" type="xs:long" minOccurs="0" />
+              <xs:element name="CANTIDAD" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Paso1_Detallado_Comision" targetNamespace="http://tempuri.org/Paso1_Detallado_Comision.xsd" xmlns:mstns="http://tempuri.org/Paso1_Detallado_Comision.xsd" xmlns="http://tempuri.org/Paso1_Detallado_Comision.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Paso1_Detallado_Comision" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Paso1_Detallado_Comision" msprop:Generator_UserDSName="Paso1_Detallado_Comision">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Detallado" msprop:Generator_TableClassName="DetalladoDataTable" msprop:Generator_TableVarName="tableDetallado" msprop:Generator_TablePropName="Detallado" msprop:Generator_RowDeletingName="DetalladoRowDeleting" msprop:Generator_RowChangingName="DetalladoRowChanging" msprop:Generator_RowEvHandlerName="DetalladoRowChangeEventHandler" msprop:Generator_RowDeletedName="DetalladoRowDeleted" msprop:Generator_UserTableName="Detallado" msprop:Generator_RowChangedName="DetalladoRowChanged" msprop:Generator_RowEvArgName="DetalladoRowChangeEvent" msprop:Generator_RowClassName="DetalladoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUMERO" msprop:Generator_ColumnVarNameInTable="columnNUMERO" msprop:Generator_ColumnPropNameInRow="NUMERO" msprop:Generator_ColumnPropNameInTable="NUMEROColumn" msprop:Generator_UserColumnName="NUMERO" type="xs:short" minOccurs="0" />
+              <xs:element name="NPOLICY" msprop:Generator_ColumnVarNameInTable="columnNPOLICY" msprop:Generator_ColumnPropNameInRow="NPOLICY" msprop:Generator_ColumnPropNameInTable="NPOLICYColumn" msprop:Generator_UserColumnName="NPOLICY" type="xs:int" minOccurs="0" />
+              <xs:element name="SIDDOC" msprop:Generator_ColumnVarNameInTable="columnSIDDOC" msprop:Generator_ColumnPropNameInRow="SIDDOC" msprop:Generator_ColumnPropNameInTable="SIDDOCColumn" msprop:Generator_UserColumnName="SIDDOC" type="xs:string" minOccurs="0" />
+              <xs:element name="SCLIENAME" msprop:Generator_ColumnVarNameInTable="columnSCLIENAME" msprop:Generator_ColumnPropNameInRow="SCLIENAME" msprop:Generator_ColumnPropNameInTable="SCLIENAMEColumn" msprop:Generator_UserColumnName="SCLIENAME" type="xs:string" minOccurs="0" />
+              <xs:element name="NCURRENCY" msprop:Generator_ColumnVarNameInTable="columnNCURRENCY" msprop:Generator_ColumnPropNameInRow="NCURRENCY" msprop:Generator_ColumnPropNameInTable="NCURRENCYColumn" msprop:Generator_UserColumnName="NCURRENCY" type="xs:string" minOccurs="0" />
+              <xs:element name="NIDDOC_TYPE" msprop:Generator_ColumnVarNameInTable="columnNIDDOC_TYPE" msprop:Generator_ColumnPropNameInRow="NIDDOC_TYPE" msprop:Generator_ColumnPropNameInTable="NIDDOC_TYPEColumn" msprop:Generator_UserColumnName="NIDDOC_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="SPROFORMA" msprop:Generator_ColumnVarNameInTable="columnSPROFORMA" msprop:Generator_ColumnPropNameInRow="SPROFORMA" msprop:Generator_ColumnPropNameInTable="SPROFORMAColumn" msprop:Generator_UserColumnName="SPROFORMA" type="xs:string" minOccurs="0" />
+              <xs:element name="NNETO" msprop:Generator_ColumnVarNameInTable="columnNNETO" msprop:Generator_ColumnPropNameInRow="NNETO" msprop:Generator_ColumnPropNameInTable="NNETOColumn" msprop:Generator_UserColumnName="NNETO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NCOMMI_RATE" msprop:Generator_ColumnVarNameInTable="columnNCOMMI_RATE" msprop:Generator_ColumnPropNameInRow="NCOMMI_RATE" msprop:Generator_ColumnPropNameInTable="NCOMMI_RATEColumn" msprop:Generator_UserColumnName="NCOMMI_RATE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NCOMMISION" msprop:Generator_ColumnVarNameInTable="columnNCOMMISION" msprop:Generator_ColumnPropNameInRow="NCOMMISION" msprop:Generator_ColumnPropNameInTable="NCOMMISIONColumn" msprop:Generator_UserColumnName="NCOMMISION" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NSTATUS_COMM" msprop:Generator_ColumnVarNameInTable="columnNSTATUS_COMM" msprop:Generator_ColumnPropNameInRow="NSTATUS_COMM" msprop:Generator_ColumnPropNameInTable="NSTATUS_COMMColumn" msprop:Generator_UserColumnName="NSTATUS_COMM" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

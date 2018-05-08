@@ -1,0 +1,4 @@
+<NS1:Online997RegafiUpdateResponse xmlns:NS1="http://www.sualud.gob.pe/parserX12/Afiliacion/Online997RegafiUpdateResponse.xsd">
+<coError>0000</coError>
+<txNombre>997_REGAFI_UPDATE</txNombre><txRespuesta>ISA*00*          *00*          *ZZ*SUSALUD        *ZZ*20007          *170724*0941*|*00501*012475860*0*T*:~GS*FA*SUSALUD        *20007          *20170724*094159  *069931249*X *00501       ~ST*997*12475860 *0000                               ~AK1*PO*069931249*            ~AK2*997*000000001*                                   ~AK3*AK5*0000      *    *   ~AK4*    *    *PER*144665159COD0001CONTRATO00011111PER820100054184                                                    ~AK3*AK5*0001      *    *   ~AK4*108 *24  *PER*144665159COD0001CONTRATO00011111PER820100054184                                                    ~AK5*A*   ~AK9*A*1*1     *1     ~SE*9         *12475860 ~GE*1     *069931249~IEA*1    *000000001~
+</txRespuesta></NS1:Online997RegafiUpdateResponse>

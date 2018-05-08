@@ -1,0 +1,76 @@
+﻿.modalBackground {
+    background-color:Gray;
+    filter:alpha(opacity=80);
+    opacity:0.8;
+}
+
+	    .accordion {   
+            width: 500px;   
+        }   
+           
+        .accordionHeader {   
+            border: 1px solid #2F4F4F;   
+            color: white;   
+            background-color: #2E4d7B;   
+            font-family: Arial, Sans-Serif;   
+            font-size: 12px;   
+            font-weight: bold;   
+            padding: 5px;   
+            margin-top: 5px;   
+            cursor: pointer;   
+        }   
+           
+        .accordionHeaderSelected {   
+            border: 1px solid #2F4F4F;   
+            color: white;   
+            background-color: #5078B3;   
+            font-family: Arial, Sans-Serif;   
+            font-size: 12px;   
+            font-weight: bold;   
+            padding: 5px;   
+            margin-top: 5px;   
+            cursor: pointer;   
+        }   
+           
+        .accordionContent {   
+            background-color: #D3DEEF;   
+            border: 1px dashed #2F4F4F;   
+            border-top: none;   
+            padding: 5px;   
+            padding-top: 10px;   
+        }   
+        
+        .updateProgress 
+        {
+			border-width: 1px;     
+			border-style: solid;     
+			background-color: #FFFFFF;     
+			position: absolute;     
+			width: 180px;     
+			height: 65px; 
+		}
+        #progressBackgroundFilter {  
+             position:fixed;  
+             top:0px;  
+             bottom:0px;  
+             left:0px;  
+             right:0px;  
+             overflow:hidden;  
+             padding:0;  
+             margin:0;  
+             background-color:#000;  
+             filter:alpha(opacity=50);  
+             opacity:0.5;  
+             z-index:1000;  
+         }  
+
+         #processMessage {  
+             position:fixed;  
+             top:30%;  
+             left:43%;  
+             padding:10px;  
+             width:14%;  
+             z-index:1001;  
+             background-color:#fff;  
+             border:solid 1px #000;  
+         }  

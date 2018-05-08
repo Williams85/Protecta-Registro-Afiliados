@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RepCO" targetNamespace="http://tempuri.org/RepCO.xsd" xmlns:mstns="http://tempuri.org/RepCO.xsd" xmlns="http://tempuri.org/RepCO.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RepCO" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="RepCO" msprop:Generator_UserDSName="RepCO">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="daCO" msprop:Generator_TableClassName="daCODataTable" msprop:Generator_TableVarName="tabledaCO" msprop:Generator_TablePropName="daCO" msprop:Generator_RowDeletingName="daCORowDeleting" msprop:Generator_RowChangingName="daCORowChanging" msprop:Generator_RowEvHandlerName="daCORowChangeEventHandler" msprop:Generator_RowDeletedName="daCORowDeleted" msprop:Generator_UserTableName="daCO" msprop:Generator_RowChangedName="daCORowChanged" msprop:Generator_RowEvArgName="daCORowChangeEvent" msprop:Generator_RowClassName="daCORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NPOLICY" msprop:Generator_ColumnVarNameInTable="columnNPOLICY" msprop:Generator_ColumnPropNameInRow="NPOLICY" msprop:Generator_ColumnPropNameInTable="NPOLICYColumn" msprop:Generator_UserColumnName="NPOLICY" type="xs:int" minOccurs="0" />
+              <xs:element name="SPROFORMA" msprop:Generator_ColumnVarNameInTable="columnSPROFORMA" msprop:Generator_ColumnPropNameInRow="SPROFORMA" msprop:Generator_ColumnPropNameInTable="SPROFORMAColumn" msprop:Generator_UserColumnName="SPROFORMA" type="xs:int" minOccurs="0" />
+              <xs:element name="SCLIENT" msprop:Generator_ColumnVarNameInTable="columnSCLIENT" msprop:Generator_ColumnPropNameInRow="SCLIENT" msprop:Generator_ColumnPropNameInTable="SCLIENTColumn" msprop:Generator_UserColumnName="SCLIENT" type="xs:string" minOccurs="0" />
+              <xs:element name="NNETO_PROF" msprop:Generator_ColumnVarNameInTable="columnNNETO_PROF" msprop:Generator_ColumnPropNameInRow="NNETO_PROF" msprop:Generator_ColumnPropNameInTable="NNETO_PROFColumn" msprop:Generator_UserColumnName="NNETO_PROF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BROKER" msprop:Generator_ColumnVarNameInTable="columnBROKER" msprop:Generator_ColumnPropNameInRow="BROKER" msprop:Generator_ColumnPropNameInTable="BROKERColumn" msprop:Generator_UserColumnName="BROKER" type="xs:string" minOccurs="0" />
+              <xs:element name="NINTERMED" msprop:Generator_ColumnVarNameInTable="columnNINTERMED" msprop:Generator_ColumnPropNameInRow="NINTERMED" msprop:Generator_ColumnPropNameInTable="NINTERMEDColumn" msprop:Generator_UserColumnName="NINTERMED" type="xs:int" minOccurs="0" />
+              <xs:element name="NCOMMI_RATE" msprop:Generator_ColumnVarNameInTable="columnNCOMMI_RATE" msprop:Generator_ColumnPropNameInRow="NCOMMI_RATE" msprop:Generator_ColumnPropNameInTable="NCOMMI_RATEColumn" msprop:Generator_UserColumnName="NCOMMI_RATE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NAMOUNT" msprop:Generator_ColumnVarNameInTable="columnNAMOUNT" msprop:Generator_ColumnPropNameInRow="NAMOUNT" msprop:Generator_ColumnPropNameInTable="NAMOUNTColumn" msprop:Generator_UserColumnName="NAMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NSTATUS_COMM" msprop:Generator_ColumnVarNameInTable="columnNSTATUS_COMM" msprop:Generator_ColumnPropNameInRow="NSTATUS_COMM" msprop:Generator_ColumnPropNameInTable="NSTATUS_COMMColumn" msprop:Generator_UserColumnName="NSTATUS_COMM" type="xs:int" minOccurs="0" />
+              <xs:element name="SSTATUS" msprop:Generator_ColumnVarNameInTable="columnSSTATUS" msprop:Generator_ColumnPropNameInRow="SSTATUS" msprop:Generator_ColumnPropNameInTable="SSTATUSColumn" msprop:Generator_UserColumnName="SSTATUS" type="xs:string" minOccurs="0" />
+              <xs:element name="SCURRENCY" msprop:Generator_ColumnVarNameInTable="columnSCURRENCY" msprop:Generator_ColumnPropNameInRow="SCURRENCY" msprop:Generator_ColumnPropNameInTable="SCURRENCYColumn" msprop:Generator_UserColumnName="SCURRENCY" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

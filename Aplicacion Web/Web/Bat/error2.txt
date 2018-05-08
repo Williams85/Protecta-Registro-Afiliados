@@ -1,0 +1,4 @@
+ORA-00001: unique constraint (INSUDB.XIE1TBL_TRX_POL0_DC) violated
+ORA-06512: at "INSUDB.SRV_TRX_TRAS_SCTR_DC", line 165
+ORA-06512: at line 1
+

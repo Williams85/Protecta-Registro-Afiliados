@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Paso3_Modulos" targetNamespace="http://tempuri.org/Paso3_Modulos.xsd" xmlns:mstns="http://tempuri.org/Paso3_Modulos.xsd" xmlns="http://tempuri.org/Paso3_Modulos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Paso3_Modulos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Paso3_Modulos" msprop:Generator_DataSetName="Paso3_Modulos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Modulos" msprop:Generator_TableClassName="ModulosDataTable" msprop:Generator_TableVarName="tableModulos" msprop:Generator_TablePropName="Modulos" msprop:Generator_RowDeletingName="ModulosRowDeleting" msprop:Generator_RowChangingName="ModulosRowChanging" msprop:Generator_RowEvHandlerName="ModulosRowChangeEventHandler" msprop:Generator_RowDeletedName="ModulosRowDeleted" msprop:Generator_UserTableName="Modulos" msprop:Generator_RowChangedName="ModulosRowChanged" msprop:Generator_RowEvArgName="ModulosRowChangeEvent" msprop:Generator_RowClassName="ModulosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUM_ARCHIVO" msprop:Generator_ColumnVarNameInTable="columnNUM_ARCHIVO" msprop:Generator_ColumnPropNameInRow="NUM_ARCHIVO" msprop:Generator_ColumnPropNameInTable="NUM_ARCHIVOColumn" msprop:Generator_UserColumnName="NUM_ARCHIVO" type="xs:long" minOccurs="0" />
+              <xs:element name="SIDDOC" msprop:Generator_ColumnVarNameInTable="columnSIDDOC" msprop:Generator_ColumnPropNameInRow="SIDDOC" msprop:Generator_ColumnPropNameInTable="SIDDOCColumn" msprop:Generator_UserColumnName="SIDDOC" type="xs:long" minOccurs="0" />
+              <xs:element name="NCERTIF" msprop:Generator_ColumnVarNameInTable="columnNCERTIF" msprop:Generator_ColumnPropNameInRow="NCERTIF" msprop:Generator_ColumnPropNameInTable="NCERTIFColumn" msprop:Generator_UserColumnName="NCERTIF" type="xs:long" minOccurs="0" />
+              <xs:element name="SLASTNAME" msprop:Generator_ColumnVarNameInTable="columnSLASTNAME" msprop:Generator_ColumnPropNameInRow="SLASTNAME" msprop:Generator_ColumnPropNameInTable="SLASTNAMEColumn" msprop:Generator_UserColumnName="SLASTNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SLASTNAME2" msprop:Generator_ColumnVarNameInTable="columnSLASTNAME2" msprop:Generator_ColumnPropNameInRow="SLASTNAME2" msprop:Generator_ColumnPropNameInTable="SLASTNAME2Column" msprop:Generator_UserColumnName="SLASTNAME2" type="xs:string" minOccurs="0" />
+              <xs:element name="SFIRSTNAME" msprop:Generator_ColumnVarNameInTable="columnSFIRSTNAME" msprop:Generator_ColumnPropNameInRow="SFIRSTNAME" msprop:Generator_ColumnPropNameInTable="SFIRSTNAMEColumn" msprop:Generator_UserColumnName="SFIRSTNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="NPREMIUM" msprop:Generator_ColumnVarNameInTable="columnNPREMIUM" msprop:Generator_ColumnPropNameInRow="NPREMIUM" msprop:Generator_ColumnPropNameInTable="NPREMIUMColumn" msprop:Generator_UserColumnName="NPREMIUM" type="xs:double" minOccurs="0" />
+              <xs:element name="OCULTA_PRIMA" msprop:Generator_ColumnVarNameInTable="columnOCULTA_PRIMA" msprop:Generator_ColumnPropNameInRow="OCULTA_PRIMA" msprop:Generator_ColumnPropNameInTable="OCULTA_PRIMAColumn" msprop:Generator_UserColumnName="OCULTA_PRIMA" type="xs:double" minOccurs="0" />
+              <xs:element name="NMODULEC" msprop:Generator_ColumnVarNameInTable="columnNMODULEC" msprop:Generator_ColumnPropNameInRow="NMODULEC" msprop:Generator_ColumnPropNameInTable="NMODULECColumn" msprop:Generator_UserColumnName="NMODULEC" type="xs:long" minOccurs="0" />
+              <xs:element name="DNEXTRECEIP" msprop:Generator_ColumnVarNameInTable="columnDNEXTRECEIP" msprop:Generator_ColumnPropNameInRow="DNEXTRECEIP" msprop:Generator_ColumnPropNameInTable="DNEXTRECEIPColumn" msprop:Generator_UserColumnName="DNEXTRECEIP" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NPOLICY" msprop:Generator_ColumnVarNameInTable="columnNPOLICY" msprop:Generator_ColumnPropNameInRow="NPOLICY" msprop:Generator_ColumnPropNameInTable="NPOLICYColumn" msprop:Generator_UserColumnName="NPOLICY" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

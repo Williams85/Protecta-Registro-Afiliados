@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SctrResumen" targetNamespace="http://tempuri.org/SctrResumen.xsd" xmlns:mstns="http://tempuri.org/SctrResumen.xsd" xmlns="http://tempuri.org/SctrResumen.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="ORACLE" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ORACLE (Web.config)" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.ORACLE.ConnectionString" Provider="System.Data.OracleClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SctrResumen" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="SctrResumen" msprop:Generator_UserDSName="SctrResumen">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SctrEmision" msprop:Generator_TableClassName="SctrEmisionDataTable" msprop:Generator_TableVarName="tableSctrEmision" msprop:Generator_RowChangedName="SctrEmisionRowChanged" msprop:Generator_TablePropName="SctrEmision" msprop:Generator_RowDeletingName="SctrEmisionRowDeleting" msprop:Generator_RowChangingName="SctrEmisionRowChanging" msprop:Generator_RowEvHandlerName="SctrEmisionRowChangeEventHandler" msprop:Generator_RowDeletedName="SctrEmisionRowDeleted" msprop:Generator_RowClassName="SctrEmisionRow" msprop:Generator_UserTableName="SctrEmision" msprop:Generator_RowEvArgName="SctrEmisionRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NLINE" msprop:Generator_ColumnVarNameInTable="columnNLINE" msprop:Generator_ColumnPropNameInRow="NLINE" msprop:Generator_ColumnPropNameInTable="NLINEColumn" msprop:Generator_UserColumnName="NLINE" type="xs:string" minOccurs="0" />
+              <xs:element name="NPOLICY" msprop:Generator_ColumnVarNameInTable="columnNPOLICY" msprop:Generator_ColumnPropNameInRow="NPOLICY" msprop:Generator_ColumnPropNameInTable="NPOLICYColumn" msprop:Generator_UserColumnName="NPOLICY" type="xs:string" minOccurs="0" />
+              <xs:element name="DSTARTDATE" msprop:Generator_ColumnVarNameInTable="columnDSTARTDATE" msprop:Generator_ColumnPropNameInRow="DSTARTDATE" msprop:Generator_ColumnPropNameInTable="DSTARTDATEColumn" msprop:Generator_UserColumnName="DSTARTDATE" type="xs:string" minOccurs="0" />
+              <xs:element name="DEXPIRDAT" msprop:Generator_ColumnVarNameInTable="columnDEXPIRDAT" msprop:Generator_ColumnPropNameInRow="DEXPIRDAT" msprop:Generator_ColumnPropNameInTable="DEXPIRDATColumn" msprop:Generator_UserColumnName="DEXPIRDAT" type="xs:string" minOccurs="0" />
+              <xs:element name="SCLIENAME" msprop:Generator_ColumnVarNameInTable="columnSCLIENAME" msprop:Generator_ColumnPropNameInRow="SCLIENAME" msprop:Generator_ColumnPropNameInTable="SCLIENAMEColumn" msprop:Generator_UserColumnName="SCLIENAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SCLIENAME_INT" msprop:Generator_ColumnVarNameInTable="columnSCLIENAME_INT" msprop:Generator_ColumnPropNameInRow="SCLIENAME_INT" msprop:Generator_ColumnPropNameInTable="SCLIENAME_INTColumn" msprop:Generator_UserColumnName="SCLIENAME_INT" type="xs:string" minOccurs="0" />
+              <xs:element name="NPERCENT" msprop:Generator_ColumnVarNameInTable="columnNPERCENT" msprop:Generator_ColumnPropNameInRow="NPERCENT" msprop:Generator_ColumnPropNameInTable="NPERCENTColumn" msprop:Generator_UserColumnName="NPERCENT" type="xs:string" minOccurs="0" />
+              <xs:element name="SSPECIALITY" msprop:Generator_ColumnVarNameInTable="columnSSPECIALITY" msprop:Generator_ColumnPropNameInRow="SSPECIALITY" msprop:Generator_ColumnPropNameInTable="SSPECIALITYColumn" msprop:Generator_UserColumnName="SSPECIALITY" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

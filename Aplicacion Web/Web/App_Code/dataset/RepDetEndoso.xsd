@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RepDetEndoso" targetNamespace="http://tempuri.org/RepDetEndoso.xsd" xmlns:mstns="http://tempuri.org/RepDetEndoso.xsd" xmlns="http://tempuri.org/RepDetEndoso.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RepDetEndoso" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="RepDetEndoso" msprop:Generator_UserDSName="RepDetEndoso">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CERTIFICADO" msprop:Generator_ColumnVarNameInTable="columnCERTIFICADO" msprop:Generator_ColumnPropNameInRow="CERTIFICADO" msprop:Generator_ColumnPropNameInTable="CERTIFICADOColumn" msprop:Generator_UserColumnName="CERTIFICADO" type="xs:short" minOccurs="0" />
+              <xs:element name="ASEGURADO" msprop:Generator_ColumnVarNameInTable="columnASEGURADO" msprop:Generator_ColumnPropNameInRow="ASEGURADO" msprop:Generator_ColumnPropNameInTable="ASEGURADOColumn" msprop:Generator_UserColumnName="ASEGURADO" type="xs:string" minOccurs="0" />
+              <xs:element name="SALARIO" msprop:Generator_ColumnVarNameInTable="columnSALARIO" msprop:Generator_ColumnPropNameInRow="SALARIO" msprop:Generator_ColumnPropNameInTable="SALARIOColumn" msprop:Generator_UserColumnName="SALARIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MODULO" msprop:Generator_ColumnVarNameInTable="columnMODULO" msprop:Generator_ColumnPropNameInRow="MODULO" msprop:Generator_ColumnPropNameInTable="MODULOColumn" msprop:Generator_UserColumnName="MODULO" type="xs:short" minOccurs="0" />
+              <xs:element name="TASA" msprop:Generator_ColumnVarNameInTable="columnTASA" msprop:Generator_ColumnPropNameInRow="TASA" msprop:Generator_ColumnPropNameInTable="TASAColumn" msprop:Generator_UserColumnName="TASA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRIMA" msprop:Generator_ColumnVarNameInTable="columnPRIMA" msprop:Generator_ColumnPropNameInRow="PRIMA" msprop:Generator_ColumnPropNameInTable="PRIMAColumn" msprop:Generator_UserColumnName="PRIMA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="INIVIGENCIA" msprop:Generator_ColumnVarNameInTable="columnINIVIGENCIA" msprop:Generator_ColumnPropNameInRow="INIVIGENCIA" msprop:Generator_ColumnPropNameInTable="INIVIGENCIAColumn" msprop:Generator_UserColumnName="INIVIGENCIA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FINVIGENCIA" msprop:Generator_ColumnVarNameInTable="columnFINVIGENCIA" msprop:Generator_ColumnPropNameInRow="FINVIGENCIA" msprop:Generator_ColumnPropNameInTable="FINVIGENCIAColumn" msprop:Generator_UserColumnName="FINVIGENCIA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INIEXCLUSION" msprop:Generator_ColumnVarNameInTable="columnINIEXCLUSION" msprop:Generator_ColumnPropNameInRow="INIEXCLUSION" msprop:Generator_ColumnPropNameInTable="INIEXCLUSIONColumn" msprop:Generator_UserColumnName="INIEXCLUSION" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FINEXCLUSION" msprop:Generator_ColumnVarNameInTable="columnFINEXCLUSION" msprop:Generator_ColumnPropNameInRow="FINEXCLUSION" msprop:Generator_ColumnPropNameInTable="FINEXCLUSIONColumn" msprop:Generator_UserColumnName="FINEXCLUSION" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PROFORMA" msprop:Generator_ColumnVarNameInTable="columnPROFORMA" msprop:Generator_ColumnPropNameInRow="PROFORMA" msprop:Generator_ColumnPropNameInTable="PROFORMAColumn" msprop:Generator_UserColumnName="PROFORMA" type="xs:short" minOccurs="0" />
+              <xs:element name="PREEXISTENCIA" msprop:Generator_ColumnVarNameInTable="columnPREEXISTENCIA" msprop:Generator_ColumnPropNameInRow="PREEXISTENCIA" msprop:Generator_ColumnPropNameInTable="PREEXISTENCIAColumn" msprop:Generator_UserColumnName="PREEXISTENCIA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

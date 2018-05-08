@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<TabCarga>
+  <Carga type="Permanent">
+    <NroVentana>0</NroVentana>
+    <Producto>x</Producto>
+    <Poliza>0</Poliza>
+  </Carga>
+  <Carga>
+    <NroVentana />
+    <Producto>23</Producto>
+    <Poliza>22</Poliza>
+  </Carga>
+</TabCarga>

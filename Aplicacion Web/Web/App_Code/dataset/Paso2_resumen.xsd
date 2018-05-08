@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Paso2_resumen" targetNamespace="http://tempuri.org/Paso2_resumen.xsd" xmlns:mstns="http://tempuri.org/Paso2_resumen.xsd" xmlns="http://tempuri.org/Paso2_resumen.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Paso2_resumen" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Paso2_resumen" msprop:Generator_UserDSName="Paso2_resumen">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Resumen" msprop:Generator_TableClassName="ResumenDataTable" msprop:Generator_TableVarName="tableResumen" msprop:Generator_RowChangedName="ResumenRowChanged" msprop:Generator_TablePropName="Resumen" msprop:Generator_RowDeletingName="ResumenRowDeleting" msprop:Generator_RowChangingName="ResumenRowChanging" msprop:Generator_RowEvHandlerName="ResumenRowChangeEventHandler" msprop:Generator_RowDeletedName="ResumenRowDeleted" msprop:Generator_RowClassName="ResumenRow" msprop:Generator_UserTableName="Resumen" msprop:Generator_RowEvArgName="ResumenRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD" msprop:Generator_ColumnPropNameInRow="CANTIDAD" msprop:Generator_ColumnPropNameInTable="CANTIDADColumn" msprop:Generator_UserColumnName="CANTIDAD" type="xs:long" minOccurs="0" />
+              <xs:element name="ID_ERROR" msprop:Generator_ColumnVarNameInTable="columnID_ERROR" msprop:Generator_ColumnPropNameInRow="ID_ERROR" msprop:Generator_ColumnPropNameInTable="ID_ERRORColumn" msprop:Generator_UserColumnName="ID_ERROR" type="xs:long" minOccurs="0" />
+              <xs:element name="TIP_ERROR" msprop:Generator_ColumnVarNameInTable="columnTIP_ERROR" msprop:Generator_ColumnPropNameInRow="TIP_ERROR" msprop:Generator_ColumnPropNameInTable="TIP_ERRORColumn" msprop:Generator_UserColumnName="TIP_ERROR" type="xs:long" minOccurs="0" />
+              <xs:element name="ID_COLUMNA" msprop:Generator_ColumnVarNameInTable="columnID_COLUMNA" msprop:Generator_ColumnPropNameInRow="ID_COLUMNA" msprop:Generator_ColumnPropNameInTable="ID_COLUMNAColumn" msprop:Generator_UserColumnName="ID_COLUMNA" type="xs:long" minOccurs="0" />
+              <xs:element name="DES_ERROR" msprop:Generator_ColumnVarNameInTable="columnDES_ERROR" msprop:Generator_ColumnPropNameInRow="DES_ERROR" msprop:Generator_ColumnPropNameInTable="DES_ERRORColumn" msprop:Generator_UserColumnName="DES_ERROR" type="xs:string" minOccurs="0" />
+              <xs:element name="CANT_TABLA_ORIGEN" msprop:Generator_ColumnVarNameInTable="columnCANT_TABLA_ORIGEN" msprop:Generator_ColumnPropNameInRow="CANT_TABLA_ORIGEN" msprop:Generator_ColumnPropNameInTable="CANT_TABLA_ORIGENColumn" msprop:Generator_UserColumnName="CANT_TABLA_ORIGEN" type="xs:long" minOccurs="0" />
+              <xs:element name="CANT_TABLA_DESTINO" msprop:Generator_ColumnVarNameInTable="columnCANT_TABLA_DESTINO" msprop:Generator_ColumnPropNameInRow="CANT_TABLA_DESTINO" msprop:Generator_ColumnPropNameInTable="CANT_TABLA_DESTINOColumn" msprop:Generator_UserColumnName="CANT_TABLA_DESTINO" type="xs:long" minOccurs="0" />
+              <xs:element name="NPOLICY" msprop:Generator_ColumnVarNameInTable="columnNPOLICY" msprop:Generator_ColumnPropNameInRow="NPOLICY" msprop:Generator_ColumnPropNameInTable="NPOLICYColumn" msprop:Generator_UserColumnName="NPOLICY" type="xs:int" minOccurs="0" />
+              <xs:element name="CANT_POLICY_ORIGEN" msprop:Generator_ColumnVarNameInTable="columnCANT_POLICY_ORIGEN" msprop:Generator_ColumnPropNameInRow="CANT_POLICY_ORIGEN" msprop:Generator_ColumnPropNameInTable="CANT_POLICY_ORIGENColumn" msprop:Generator_UserColumnName="CANT_POLICY_ORIGEN" type="xs:short" minOccurs="0" />
+              <xs:element name="CANT_POLICY_DESTINO" msprop:Generator_ColumnVarNameInTable="columnCANT_POLICY_DESTINO" msprop:Generator_ColumnPropNameInRow="CANT_POLICY_DESTINO" msprop:Generator_ColumnPropNameInTable="CANT_POLICY_DESTINOColumn" msprop:Generator_UserColumnName="CANT_POLICY_DESTINO" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

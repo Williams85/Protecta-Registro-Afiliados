@@ -1,0 +1,24 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageProcesos.master.vb" Inherits="MasterPageProcesos" %>
+<!DOCTYPE html>
+
+<%--Proyecto: PRY010
+Requerimiento: RQ2017-0100001
+Autor: EFITEC-MCM
+--------------------------------------------------------------------------------------------------%>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script type="text/javascript" src="JS/custom.js"></script>
+    <title></title>
+</head>
+<body onload="nobackbutton();">
+    <script src='<%=ResolveUrl("~/crystalreportviewers13/js/crviewer/crv.js")%>' type="text/javascript"></script>
+    <form id="form3" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

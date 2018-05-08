@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Paso2_TransferidosCO" targetNamespace="http://tempuri.org/Paso2_TransferidosCO.xsd" xmlns:mstns="http://tempuri.org/Paso2_TransferidosCO.xsd" xmlns="http://tempuri.org/Paso2_TransferidosCO.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Paso2_TransferidosCO" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Paso2_TransferidosCO" msprop:Generator_UserDSName="Paso2_TransferidosCO">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="transferidosdc" msprop:Generator_TableClassName="transferidosdcDataTable" msprop:Generator_TableVarName="tabletransferidosdc" msprop:Generator_TablePropName="transferidosdc" msprop:Generator_RowDeletingName="transferidosdcRowDeleting" msprop:Generator_RowChangingName="transferidosdcRowChanging" msprop:Generator_RowEvHandlerName="transferidosdcRowChangeEventHandler" msprop:Generator_RowDeletedName="transferidosdcRowDeleted" msprop:Generator_UserTableName="transferidosdc" msprop:Generator_RowChangedName="transferidosdcRowChanged" msprop:Generator_RowEvArgName="transferidosdcRowChangeEvent" msprop:Generator_RowClassName="transferidosdcRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUM_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnNUM_REGISTRO" msprop:Generator_ColumnPropNameInRow="NUM_REGISTRO" msprop:Generator_ColumnPropNameInTable="NUM_REGISTROColumn" msprop:Generator_UserColumnName="NUM_REGISTRO" type="xs:int" minOccurs="0" />
+              <xs:element name="SIDDOC" msprop:Generator_ColumnVarNameInTable="columnSIDDOC" msprop:Generator_ColumnPropNameInRow="SIDDOC" msprop:Generator_ColumnPropNameInTable="SIDDOCColumn" msprop:Generator_UserColumnName="SIDDOC" type="xs:string" minOccurs="0" />
+              <xs:element name="SLASTNAME" msprop:Generator_ColumnVarNameInTable="columnSLASTNAME" msprop:Generator_ColumnPropNameInRow="SLASTNAME" msprop:Generator_ColumnPropNameInTable="SLASTNAMEColumn" msprop:Generator_UserColumnName="SLASTNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SPROFORMA" msprop:Generator_ColumnVarNameInTable="columnSPROFORMA" msprop:Generator_ColumnPropNameInRow="SPROFORMA" msprop:Generator_ColumnPropNameInTable="SPROFORMAColumn" msprop:Generator_UserColumnName="SPROFORMA" type="xs:string" minOccurs="0" />
+              <xs:element name="NNETO" msprop:Generator_ColumnVarNameInTable="columnNNETO" msprop:Generator_ColumnPropNameInRow="NNETO" msprop:Generator_ColumnPropNameInTable="NNETOColumn" msprop:Generator_UserColumnName="NNETO" type="xs:double" minOccurs="0" />
+              <xs:element name="NCOMMI_RATE" msprop:Generator_ColumnVarNameInTable="columnNCOMMI_RATE" msprop:Generator_ColumnPropNameInRow="NCOMMI_RATE" msprop:Generator_ColumnPropNameInTable="NCOMMI_RATEColumn" msprop:Generator_UserColumnName="NCOMMI_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="NCOMMISION" msprop:Generator_ColumnVarNameInTable="columnNCOMMISION" msprop:Generator_ColumnPropNameInRow="NCOMMISION" msprop:Generator_ColumnPropNameInTable="NCOMMISIONColumn" msprop:Generator_UserColumnName="NCOMMISION" type="xs:double" minOccurs="0" />
+              <xs:element name="DNEXTRECEIP" msprop:Generator_ColumnVarNameInTable="columnDNEXTRECEIP" msprop:Generator_ColumnPropNameInRow="DNEXTRECEIP" msprop:Generator_ColumnPropNameInTable="DNEXTRECEIPColumn" msprop:Generator_UserColumnName="DNEXTRECEIP" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

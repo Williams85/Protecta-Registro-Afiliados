@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Paso2_Transferidos" targetNamespace="http://tempuri.org/Paso2_Transferidos.xsd" xmlns:mstns="http://tempuri.org/Paso2_Transferidos.xsd" xmlns="http://tempuri.org/Paso2_Transferidos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Paso2_Transferidos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Paso2_Transferidos" msprop:Generator_DataSetName="Paso2_Transferidos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="transferidos" msprop:Generator_TableClassName="transferidosDataTable" msprop:Generator_TableVarName="tabletransferidos" msprop:Generator_TablePropName="transferidos" msprop:Generator_RowDeletingName="transferidosRowDeleting" msprop:Generator_RowChangingName="transferidosRowChanging" msprop:Generator_RowEvHandlerName="transferidosRowChangeEventHandler" msprop:Generator_RowDeletedName="transferidosRowDeleted" msprop:Generator_UserTableName="transferidos" msprop:Generator_RowChangedName="transferidosRowChanged" msprop:Generator_RowEvArgName="transferidosRowChangeEvent" msprop:Generator_RowClassName="transferidosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUM_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnNUM_REGISTRO" msprop:Generator_ColumnPropNameInRow="NUM_REGISTRO" msprop:Generator_ColumnPropNameInTable="NUM_REGISTROColumn" msprop:Generator_UserColumnName="NUM_REGISTRO" type="xs:long" minOccurs="0" />
+              <xs:element name="SIDDOC" msprop:Generator_ColumnVarNameInTable="columnSIDDOC" msprop:Generator_ColumnPropNameInRow="SIDDOC" msprop:Generator_ColumnPropNameInTable="SIDDOCColumn" msprop:Generator_UserColumnName="SIDDOC" type="xs:string" minOccurs="0" />
+              <xs:element name="SLASTNAME" msprop:Generator_ColumnVarNameInTable="columnSLASTNAME" msprop:Generator_ColumnPropNameInRow="SLASTNAME" msprop:Generator_ColumnPropNameInTable="SLASTNAMEColumn" msprop:Generator_UserColumnName="SLASTNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SLASTNAME2" msprop:Generator_ColumnVarNameInTable="columnSLASTNAME2" msprop:Generator_ColumnPropNameInRow="SLASTNAME2" msprop:Generator_ColumnPropNameInTable="SLASTNAME2Column" msprop:Generator_UserColumnName="SLASTNAME2" type="xs:string" minOccurs="0" />
+              <xs:element name="SFIRSTNAME" msprop:Generator_ColumnVarNameInTable="columnSFIRSTNAME" msprop:Generator_ColumnPropNameInRow="SFIRSTNAME" msprop:Generator_ColumnPropNameInTable="SFIRSTNAMEColumn" msprop:Generator_UserColumnName="SFIRSTNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="NPOLICY" msprop:Generator_ColumnVarNameInTable="columnNPOLICY" msprop:Generator_ColumnPropNameInRow="NPOLICY" msprop:Generator_ColumnPropNameInTable="NPOLICYColumn" msprop:Generator_UserColumnName="NPOLICY" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

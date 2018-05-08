@@ -1,0 +1,85 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage2.master.vb" Inherits="MasterPage2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <link href="App_Themes/Tema/style.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table style="width: 100%; height: 100%">
+            <tr>
+                <td align="right" colspan="1" style="width: 129px; height: 35px">
+                </td>
+                <td align="right" colspan="11" style="background-attachment: fixed; height: 35px;
+                    background-color: #d9213c">
+                </td>
+                <td align="right" colspan="1" style="width: 329px; height: 35px">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="1" style="width: 129px; height: 20px">
+                </td>
+                <td align="right" colspan="10" style="width: 1394px; height: 20px">
+                    &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" Font-Names="Tahoma" Font-Size="8pt" ForeColor="#D3343D">Menú Inicio</asp:LinkButton>
+                        </td>
+                <td align="right" colspan="1" style="width: 102px; height: 20px">
+                        <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" Font-Names="Tahoma" Font-Size="8pt" ForeColor="#D3343D" >Cerrar Sesión</asp:LinkButton></td>
+                <td align="right" colspan="1" style="width: 329px; height: 20px">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1" style="width: 129px; height: 20px">
+                </td>
+                <td colspan="10" style="height: 20px; width: 1394px;">
+                    &nbsp; &nbsp;<asp:Image ID="Image1" runat="server" Height="40px" ImageUrl="~/Imagenes/Logo-transicion.jpg"
+                        Width="168px" />&nbsp;
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Tahoma" Font-Size="8pt"
+                        ForeColor="Gray" Text="Usuario:"></asp:Label>
+                    <asp:Label ID="lblNomUsuario" runat="server" Font-Bold="True" Font-Names="Tahoma"
+                        Font-Size="8pt" ForeColor="Gray"></asp:Label></td>
+                <td colspan="1" style="width: 102px; height: 20px">
+                    <asp:Label ID="lblPerfil" runat="server" Font-Bold="True" Font-Names="Tahoma"
+                        Font-Size="8pt" ForeColor="Gray" Visible="False"></asp:Label>
+                </td>
+                <td colspan="1" style="width: 329px; height: 20px">
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="1" style="width: 129px">
+                </td>
+                <td colspan="11">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+                </td>
+                <td colspan="1" style="width: 329px">
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="1" style="width: 129px">
+                </td>
+                <td style="width: 1394px" colspan="10">
+                </td>
+                <td colspan="1" style="width: 102px">
+                </td>
+                <td colspan="1" style="width: 329px">
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="1" style="width: 129px; height: 32px">
+                </td>
+                <td colspan="11" style="background-attachment: fixed; height: 32px; background-color: #d9213c">
+                </td>
+                <td colspan="1" style="width: 329px; height: 32px">
+                </td>
+                
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

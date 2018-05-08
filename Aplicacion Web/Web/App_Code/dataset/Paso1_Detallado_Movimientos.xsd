@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Paso1_Detallado_Movimientos" targetNamespace="http://tempuri.org/Paso1_Detallado_Movimientos.xsd" xmlns:mstns="http://tempuri.org/Paso1_Detallado_Movimientos.xsd" xmlns="http://tempuri.org/Paso1_Detallado_Movimientos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Paso1_Detallado_Movimientos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Paso1_Detallado_Movimientos" msprop:Generator_UserDSName="Paso1_Detallado_Movimientos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable" msprop:Generator_TableClassName="DataTableDataTable" msprop:Generator_TableVarName="tableDataTable" msprop:Generator_RowChangedName="DataTableRowChanged" msprop:Generator_TablePropName="DataTable" msprop:Generator_RowDeletingName="DataTableRowDeleting" msprop:Generator_RowChangingName="DataTableRowChanging" msprop:Generator_RowEvHandlerName="DataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableRowDeleted" msprop:Generator_RowClassName="DataTableRow" msprop:Generator_UserTableName="DataTable" msprop:Generator_RowEvArgName="DataTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NPOLICY" msprop:Generator_ColumnVarNameInTable="columnNPOLICY" msprop:Generator_ColumnPropNameInRow="NPOLICY" msprop:Generator_ColumnPropNameInTable="NPOLICYColumn" msprop:Generator_UserColumnName="NPOLICY" type="xs:short" minOccurs="0" />
+              <xs:element name="NRENOVACION" msprop:Generator_ColumnVarNameInTable="columnNRENOVACION" msprop:Generator_ColumnPropNameInRow="NRENOVACION" msprop:Generator_ColumnPropNameInTable="NRENOVACIONColumn" msprop:Generator_UserColumnName="NRENOVACION" type="xs:short" minOccurs="0" />
+              <xs:element name="NUM_MOVIMIENTO" msprop:Generator_ColumnVarNameInTable="columnNUM_MOVIMIENTO" msprop:Generator_ColumnPropNameInRow="NUM_MOVIMIENTO" msprop:Generator_ColumnPropNameInTable="NUM_MOVIMIENTOColumn" msprop:Generator_UserColumnName="NUM_MOVIMIENTO" type="xs:short" minOccurs="0" />
+              <xs:element name="FEC_ANULACION" msprop:Generator_ColumnVarNameInTable="columnFEC_ANULACION" msprop:Generator_ColumnPropNameInRow="FEC_ANULACION" msprop:Generator_ColumnPropNameInTable="FEC_ANULACIONColumn" msprop:Generator_UserColumnName="FEC_ANULACION" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MOTIVO_ANULACION" msprop:Generator_ColumnVarNameInTable="columnMOTIVO_ANULACION" msprop:Generator_ColumnPropNameInRow="MOTIVO_ANULACION" msprop:Generator_ColumnPropNameInTable="MOTIVO_ANULACIONColumn" msprop:Generator_UserColumnName="MOTIVO_ANULACION" type="xs:string" minOccurs="0" />
+              <xs:element name="NUMERO" msprop:Generator_ColumnVarNameInTable="columnNUMERO" msprop:Generator_ColumnPropNameInRow="NUMERO" msprop:Generator_ColumnPropNameInTable="NUMEROColumn" msprop:Generator_UserColumnName="NUMERO" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,4 @@
+@echo off
+sqlldr insudb/prodvt09@TIMEP control=D:\Masiva\SIPAN\PROD62\201509-001\POL150-01.CTL
+move POL150-01.LOG  D:\Masiva\SIPAN\PROD62\201509-001\POL150-01.LOG
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Paso4_ResumenAgrobancoPermanencia" targetNamespace="http://tempuri.org/Paso4_ResumenAgrobancoPermanencia.xsd" xmlns:mstns="http://tempuri.org/Paso4_ResumenAgrobancoPermanencia.xsd" xmlns="http://tempuri.org/Paso4_ResumenAgrobancoPermanencia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Paso4_ResumenAgrobancoPermanencia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Agrobanco_Pemanencia">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUM_REGISTRO" type="xs:double" minOccurs="0" />
+              <xs:element name="ncertif" type="xs:double" minOccurs="0" />
+              <xs:element name="SLOAN_NUMBE" type="xs:string" minOccurs="0" />
+              <xs:element name="siddoc" type="xs:string" minOccurs="0" />
+              <xs:element name="SLASTNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SLASTNAME2" type="xs:string" minOccurs="0" />
+              <xs:element name="SFIRSTNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="DBIRTHDAT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DINITCRE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DEND_CRE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DSTARTDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DEXPIRDAT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MONTOCREDITO" type="xs:double" minOccurs="0" />
+              <xs:element name="tasa" type="xs:double" minOccurs="0" />
+              <xs:element name="MESES" type="xs:string" minOccurs="0" />
+              <xs:element name="prima" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

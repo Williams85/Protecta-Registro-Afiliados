@@ -1,0 +1,4 @@
+@echo off
+sqlldr insudb/prodvt09@TIME control=D:\Masiva\RM_CONECTA\PROD72\201410-017\POL122-01.CTL
+move POL122-01.LOG  D:\Masiva\RM_CONECTA\PROD72\201410-017\POL122-01.LOG
+
